@@ -1,0 +1,14 @@
+{
+  "name": "barebone",
+  "homepage": "https://github.com/rafstraumur/webapp-barebone",
+  "authors": [
+    "Simon Dirmeier <simon.dirmeier@gmx.de>"
+  ],
+  "description": "a barebone for webapps",
+  "main": "",
+  "keywords": [
+    "barebone"
+  ],
+  "license": "GPLv3",
+  "private": true
+}
