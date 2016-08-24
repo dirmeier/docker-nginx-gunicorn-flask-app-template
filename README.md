@@ -50,11 +50,11 @@ todo
 
 ## Run
 
-Nginx listens to port 80. So if the servers are started, you can navigate to:
+Nginx listens on port 80. So if the servers are started, you can navigate to:
 ```
 127.0.0.1
 ```
-If you browse to 
+If you browse to:
 ```
 127.0.0.1/hello/simon
 ```
