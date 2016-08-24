@@ -9,16 +9,16 @@ This is a barebone that I like to use for web-servers. It uses `Angular2` on the
 
 ## Installation
 
-There are two easy ways to set up the barebone. The `Docker` version is easier (at some point I think I'll dockerize my whole environent).
-The manual installation is similar, but doesn't hide port 4000 which is done in te dockerized version.
+There are two ways to set up the barebone. The `Docker` version is easier (at some point I think I'll dockerize my whole environent).
+The manual installation is similar, but doesn't hide port 4000 which is done in the dockerized version.
 
 ### Installation using Docker (Linux)
 
-I prefer the dockerized version, since it is way easier, once you have `docker`. So install `docker` first and just run:
+Once you have `Docker` just run:
 ```shell
 ./build_images.sh
 ```
-Starting the images is done by:
+This installs the containers and sets up an image. Starting the images is done by:
 ```shell
 ./run_images.sh
 ```
@@ -29,13 +29,11 @@ When you are finished, stop and remove the images again:
 
 ### Manual installation (Mac and Linux)
 
-As far as I know `Docker` has issues on Mac. So here is a way to manually install the barebone.
-
-First install the python requirements, e.g. into  your favourite `conda` environment:
+As far as I know `Docker` has issues on Mac. So here is a way to manually install the barebone. First install the python requirements, e.g. into  your favourite `conda` environment:
 ```shell
 pip install -r requirements.txt
 ```
-Then you need `nginx` installed. Then copy the config files using:
+Afterwards install `nginx`. Then copy the config files using:
 ```shell
 ./install.sh
 ```
@@ -45,8 +43,6 @@ If all worked correctly, you can run `nginx` and `Gunicorn` using:
 service nginx start
 gunicorn -w 4 -b 127.0.0.1:4000 app:app --chdir ./app
 ```
-
-That's it!
 
 ### Setting up a service
 
