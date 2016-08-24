@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template
 from werkzeug.contrib.fixers import ProxyFix
 
@@ -13,11 +12,7 @@ def start():
 @app.route('/hello/')
 @app.route('/hello/<name>')
 def hello(name=None):
-    return render_template('hello.html', name=name)
-
-@app.route('/get', methods=['GET'])
-def json_path():    
-    return "jsonify(json)"
+    return render_template('index.html', name=name)
 
 if __name__ == "__main__":
     app.run()
