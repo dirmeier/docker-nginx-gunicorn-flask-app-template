@@ -30,9 +30,18 @@ First you need the `nginx` installed. Then copy the config files using:
 ```
 This, of course, overrides your previous `nginx` configuration, so keep a copy.
 
-That's basically it, if I did all correctly. Run `nginx` and `Gunicorn` using:
+That's it!
+
+## Run
+
+If all worked correctly, you canun `nginx` and `Gunicorn` using:
 ```shell
 ./run.sh
+```
+
+This starts the servers. `nginx` listens on port 80, so browse to:
+```
+127.0.0.1
 ```
 
 ## Author
