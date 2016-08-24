@@ -1,0 +1,1 @@
+sudo docker stop barebone && sudo docker rm barebone
