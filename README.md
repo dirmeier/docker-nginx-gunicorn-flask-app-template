@@ -32,9 +32,13 @@ This, of course, overrides your previous `nginx` configuration, so keep a copy.
 
 That's it!
 
+### Setting up a service
+
+todo
+
 ## Run
 
-If all worked correctly, you canun `nginx` and `Gunicorn` using:
+If all worked correctly, you can run `nginx` and `Gunicorn` using:
 ```shell
 ./run.sh
 ```
