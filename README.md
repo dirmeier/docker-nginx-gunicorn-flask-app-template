@@ -14,15 +14,16 @@ First install the python requirements, e.g. into  your favourite `conda` environ
 pip install -r requirements.txt
 ```
 
-### Installation using Docker
+### Installation using Docker (Linux)
 
 I prefer the dockerized version, so install `docker` first and just run:
 ```shell
 todo
 ```
 
-### Manual installation
+### Manual installation (Mac and Linux)
 
+As far as I know `Docker` has issues on Mac. So here is a way to manually install the barebone.
 First you need the `nginx` installed. Then copy the config files using:
 ```shell
 ./install.sh
