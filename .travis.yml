@@ -13,7 +13,7 @@ install:
   - ./service.sh build
 
 before_script:
-  - ./service start
+  - ./service.sh start
 
 script:
   - ping localhost
