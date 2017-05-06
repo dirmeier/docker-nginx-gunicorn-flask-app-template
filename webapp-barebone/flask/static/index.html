@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>my page</title>
+
+    <link href="/static/bower_components/materialize/dist/css/materialize.min.css" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
+    <link href="/static/bower_components/skeleton/css/skeleton.css" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
+    <link href="/static/bower_components/skeleton/css/normalize.css" type="text/css" rel="stylesheet"
+          media="screen,projection"/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+
+<body>
+<div>
+    <nav>
+        <div class="nav-wrapper">
+            <a class="right" href="https://github.com/dirmeier/"
+               style="color: black; font-size: 2em; margin-right: 2%">github</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container">
+    <section>
+        <div>
+            <h1 class="blink" align="center"> title </h1>
+        </div>
+        <h6 align="center">
+            <p style="font-size: 1.0em">
+                some introductory text that gives information about what is going on here
+            </p>
+        </h6>
+        <div align="center"><a class="waves-effect waves-light btn-large" href="https://github.com/dirmeier/">hyperlink</a></div>
+        <div class="docs-section" id="about">
+            <h4 style="text-align: center;">Subtitle</h4>
+            <h6>
+                <p style="text-align: center; font-size: 1.0em">cool text</p>
+            </h6>
+        </div>
+    </section>
+    <section>
+        <footer style="margin-top: 5%">
+            <p style="font-size: 0.75em;">&copy; 2015--2017 Simon Dirmeier (<a href="mailto:mail@simon-dirmeier.net">mail@simon-dirmeier.net</a>)
+            </p>
+        </footer>
+    </section>
+</div>
+
+<script src="/static/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/static/bower_components/materialize/bin/materialize.js"></script>
+<script>
+    $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'right', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: false // Choose whether you can drag to open on touch screens
+        }
+    );
+</script>
+<script src="js/init.js"></script>
+</body>
+</html>

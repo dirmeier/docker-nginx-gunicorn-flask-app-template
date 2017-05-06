@@ -13,12 +13,12 @@ RUN apt-get update &&  \
 
 RUN mkdir /source/
 
-COPY proxy/supervisord.conf /etc/supervisord.conf
-COPY proxy/nginx.conf /etc/nginx/nginx.conf
-COPY proxy/app /etc/nginx/sites-available/default
+COPY webapp-barebone/reverse-proxy/supervisord.conf /etc/supervisord.conf
+COPY webapp-barebone/reverse-proxy/nginx.conf /etc/nginx/nginx.conf
+COPY webapp-barebone/reverse-proxy/app /etc/nginx/sites-available/default
 
-COPY app /source/app
-COPY run.sh /source/run.sh
+COPY webapp-barebone/flask /source/app
+COPY webapp-barebone/run.sh /source/run.sh
 
 EXPOSE 80
 
