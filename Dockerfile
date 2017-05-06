@@ -27,6 +27,7 @@ COPY webapp-barebone/run.sh /source/run.sh
 RUN echo '{ "allow_root": true }' > /root/.bowerrc
 RUN cd /source/app/static && bower install && npm install
 
+
 EXPOSE 80
 
 CMD ["/source/run.sh",  "--docker"]
