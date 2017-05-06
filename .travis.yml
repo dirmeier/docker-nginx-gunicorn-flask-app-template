@@ -1,0 +1,21 @@
+language: python
+
+sudo: true
+cache: packages
+
+python:
+  - "3.5"
+
+services:
+  - docker
+
+install:
+  - ./service.sh build
+
+before_script:
+  - ./service start
+
+script:
+  - ping localhost
+  - curl localhost
+
