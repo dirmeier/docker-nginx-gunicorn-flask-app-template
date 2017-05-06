@@ -1,6 +1,6 @@
 <h1 align="center"> webapp-barebone </h1>
 
-[![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
+[![Project Status](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
 
 
 An empty web-app template consisting of Angular2, nginx, Gunicorn and Flask! 
