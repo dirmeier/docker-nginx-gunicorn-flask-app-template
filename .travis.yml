@@ -16,7 +16,7 @@ before_script:
   - ./service.sh start &
 
 script:
-  - ping localhost
+  - ping -o localhost
   - curl localhost
 
 after_script:
