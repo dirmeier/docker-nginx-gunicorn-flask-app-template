@@ -1,6 +1,6 @@
 language: python
 
-sudo: true
+sudo: required
 cache: packages
 
 python:
@@ -13,9 +13,11 @@ install:
   - ./service.sh build
 
 before_script:
-  - ./service.sh start
+  - ./service.sh start &
 
 script:
-  - ping localhost
-  - curl localhost
+  - ping -c 4 localhost
+
+after_script:
+  - ./service.sh stop
 

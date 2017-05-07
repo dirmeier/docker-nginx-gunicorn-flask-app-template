@@ -1,6 +1,7 @@
 <h1 align="center"> webapp-barebone </h1>
 
 [![Project Status](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
+[![Build Status](https://travis-ci.org/dirmeier/webapp-barebone.svg?branch=master)](https://travis-ci.org/dirmeier/webapp-barebone)
 
 An empty web-app template consisting of skeleton, nginx, Gunicorn and Flask!
 
@@ -26,7 +27,7 @@ This installs the image. Starting the container is done by:
 
 This starts `nginx` in port 80. So navigate to `localhost` or `127.0.0.1`. You should see something like this:
 
-<img src="https://github.com/dirmeier/webapp-barebone/blob/master/_img/server.jpg" alt="Drawing" style="height: 600px; border:2px solid #000000" />
+<img src="https://github.com/dirmeier/webapp-barebone/blob/master/_img/server.jpg" alt="Drawing" style="height: 600px; border:2px solid black" />
 
 When you are finished, stop the container again:
 
