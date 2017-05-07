@@ -1,6 +1,5 @@
 language: python
 
-os: osx
 sudo: required
 cache: packages
 
@@ -17,7 +16,7 @@ before_script:
   - ./service.sh start &
 
 script:
-  - ping -o localhost
+  - ping -c 4 localhost
 
 after_script:
   - ./service.sh stop
