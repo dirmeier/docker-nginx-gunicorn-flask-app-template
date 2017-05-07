@@ -13,9 +13,12 @@ install:
   - ./service.sh build
 
 before_script:
-  - ./service.sh start
+  - ./service.sh start &
 
 script:
   - ping localhost
   - curl localhost
+
+after_script:
+  - ./service.sh stop
 
