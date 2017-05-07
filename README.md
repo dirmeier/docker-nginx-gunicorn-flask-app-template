@@ -25,7 +25,7 @@ This installs the image. Starting the container is done by:
   ./service.sh start
 ```
 
-This starts `nginx` in port 80. So navigate to `localhost` or `127.0.0.1`. You should see something like this:
+This starts `nginx` and lets it listen on port 80. So navigate to `localhost` or `127.0.0.1`. You should see something like this:
 
 <img src="https://github.com/dirmeier/webapp-barebone/blob/master/_img/server.jpg" alt="Drawing" style="height: 600px; border:2px solid black" />
 
