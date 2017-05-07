@@ -1,6 +1,7 @@
 language: python
 
-sudo: true
+os: osx
+sudo: required
 cache: packages
 
 python:
@@ -17,7 +18,6 @@ before_script:
 
 script:
   - ping -o localhost
-  - curl localhost
 
 after_script:
   - ./service.sh stop
