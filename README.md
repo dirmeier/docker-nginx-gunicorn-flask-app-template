@@ -12,7 +12,7 @@ This is a barebone that I like to use for web-servers. It uses `skeleton` on the
 
 ## Usage
 
-In order to install the barebone, first get modify the `htmls`, `python` files etc. 
+First download the latest `tarball` and unpack it. In order to install the barebone, first get modify the `htmls`, `python` files etc. 
 Then install docker and run:
 
 ```sh
