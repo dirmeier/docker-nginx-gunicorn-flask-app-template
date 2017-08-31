@@ -13,7 +13,7 @@ This is a barebone that I like to use for web-servers. It uses `skeleton` on the
 ## Usage
 
 First download the latest `tarball` and unpack it. In order to install the barebone, first get modify the `htmls`, `python` files etc. 
-Then install docker and run:
+To run the service you need to have `docker` installed (any recent version ill do):
 
 ```sh
   ./service.sh build
