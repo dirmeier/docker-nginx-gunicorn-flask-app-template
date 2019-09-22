@@ -1,7 +1,6 @@
-<h1 align="center"> webapp-barebone </h1>
+# webapp-barebone
 
 [![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
-[![Build Status](https://travis-ci.org/dirmeier/webapp-barebone.svg?branch=master)](https://travis-ci.org/dirmeier/webapp-barebone)
 
 An empty web-app template consisting of skeleton, nginx, Gunicorn and Flask!
 
