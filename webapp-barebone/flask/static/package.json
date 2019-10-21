@@ -4,7 +4,7 @@
   "license": "GPLv3",
   "devDependencies": {
     "codecov": "^2.1.0",
-    "eslint": "^3.19.0",
+    "eslint": "^6.5.1",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-eslint": "0.0.5",
