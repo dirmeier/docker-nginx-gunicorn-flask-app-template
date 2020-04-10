@@ -1,18 +1,16 @@
-# webapp-barebone
+# A docker-nginx-gunicorn-flask-app
 
 [![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 
-An empty web-app template consisting of skeleton, nginx, Gunicorn and Flask!
+An empty web-app template consisting of docker, skeleton, nginx, gunicorn and flask!
 
 ## Introduction
 
-This is a barebone that I like to use for web-servers. It uses `skeleton` on the front-end, `nginx` as a reverse-proxy, `Gunicorn` as HTTP-server and
-`Flask` as web-framework. All directories/files are empty I think, so you just need to fill them.
+This is a barebone that I like to use for web-servers. It uses `skeleton` on the front-end, `nginx` as a reverse-proxy, `Gunicorn` as HTTP-server and `Flask` as web-framework. All directories/files are empty I think, so you just need to fill them. The entire stack is dockerized.
 
 ## Usage
 
-First download the latest `tarball` and unpack it. In order to install the barebone, first get modify the `htmls`, `python` files etc. 
-To run the service you need to have `docker` installed (any recent version ill do):
+First download the latest `tarball` and unpack it. In order to install the barebone, first get modify the `htmls`, `python` files etc. To run the service you need to have `docker` installed (any recent version ill do):
 
 ```sh
   ./service.sh build
