@@ -1,4 +1,4 @@
-# A docker-nginx-gunicorn-flask-app
+# A docker-nginx-gunicorn-flask webapp
 
 [![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 
