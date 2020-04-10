@@ -34,4 +34,4 @@ When you are finished, stop the container again:
 
 ## Author
 
-* Simon Dirmeier <a href="mailto:mail@simon-dirmeier.net">mail@simon-dirmeier.net</a>
+* Simon Dirmeier <a href="mailto:simon.dirmeier @ web.de">simon.dirmeier@web.de</a>
