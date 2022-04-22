@@ -1,8 +1,8 @@
-# A docker-nginx-gunicorn-flask webapp
+# docker-nginx-gunicorn-flask-app-template
 
 [![Project Status](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
 
-An empty web-app template consisting of docker, skeleton, nginx, gunicorn and flask!
+> A template for web-apps
 
 ## Introduction
 
